@@ -23,7 +23,7 @@ year = {2022}
 }
 ```
 
-Usage (on Collab):
+Usage (on Colab):
 
 ```
 !git clone https://github.com/sayannag/WeinerBoseModularVolterra.git

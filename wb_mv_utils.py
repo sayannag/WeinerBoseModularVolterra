@@ -169,7 +169,7 @@ class WeinerBose():
     M = (-30 - np.log(1-alpha)) / np.log(alpha)
     M = int(np.ceil(M))
 
-    if L<=0 or L>9: 
+    if L<=0: # or L>9: 
         print('L should be between 1 and 9, default vlaue L = 5')
         L = 5
 
@@ -594,7 +594,7 @@ class ModularVolterra():
     M = (-30 - np.log(1-alpha)) / np.log(alpha)
     M = int(np.ceil(M))
 
-    if L<=0 or L>9: 
+    if L<=0: # or L>9: 
         print('L should be between 1 and 9, default vlaue L = 5')
         L = 5
 
